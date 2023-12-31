@@ -23,9 +23,10 @@
 <form class = "form">
   <fieldset>
       <legend>Upload Your Photo Here</legend>
-      <p>
-        <input type = "file" id="fileInput" multiple/>
-    </p>
+      <p><input type="file"  accept="image/gif, image/jpeg, image/png" name="image" id="file"  multiple onchange="myfunction()" style="display: none;"></p>
+<p><label for="file" style="cursor: pointer;">Click Here to Upload Image</label></p>
+<p><img id="output" width="200" /></p>
+<p id="demo"></p>
   </fieldset>
   </form>       
 
@@ -38,5 +39,6 @@ integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4Qz
 crossorigin="anonymous"></script>
 <!--MY SCRIPTS-->
 <script src="jsfileupload.js"></script>
+
 </body>
 </html>

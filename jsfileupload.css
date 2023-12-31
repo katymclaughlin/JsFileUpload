@@ -25,4 +25,14 @@ padding: 2.0em;
 color: rgba(86, 67, 24, 0.867)
 }
 
+.panel{
+    float: left;
+    position: relative;
+    width: 125px;
+    margin: 0 0.5em 2.0em 3em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.8em;
+   }
 
