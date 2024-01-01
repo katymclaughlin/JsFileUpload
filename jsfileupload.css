@@ -20,19 +20,33 @@
     padding: 1.0em;
 }
 
-.form{
-padding: 2.0em;
-color: rgba(86, 67, 24, 0.867)
+.droparea {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 160px;
+    border: 4px dashed grey;
+    border-radius: 15px;
+    padding-top: 2rem;
 }
 
-.panel{
-    float: left;
-    position: relative;
-    width: 125px;
-    margin: 0 0.5em 2.0em 3em;
-    padding: 1.0em;
-    background-color: #fff;
-    border: #ccc solid 1px;
-    border-radius: 0.8em;
-   }
+.red-border {
+    border-color: red;
+}
 
+#result{
+    display: flex;
+    gap: 65px;
+    padding: 10px 10px;
+}
+
+.thumbnail{
+    height: 190px;
+}
+
+#demo{
+    display: flex;
+}
